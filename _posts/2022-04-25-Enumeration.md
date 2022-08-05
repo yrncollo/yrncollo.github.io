@@ -1,6 +1,6 @@
 ---
 title: "Enumeration/Scanning"
-date: 2022-08-05 
+date: 2022-04-25 
 categories: ["Cheat sheet"]
 tags: [nmap, ftp, ssh, telnet, smtp, dns, dnsenum, rpc, smb, snmp, irc, mysql, redis]     # TAG names should always be lowercase
 ---

@@ -5,8 +5,6 @@ categories: ["Cheat sheet"]
 tags: [nmap, ftp, ssh, telnet, smtp, dns, dnsenum, rpc, smb, snmp, irc, mysql, redis]     # TAG names should always be lowercase
 ---
 
-
-# Enumeration/Scanning
 This is the second phase of hacking where by it includes scanning the target and enumerating services. 
 
 ## **Port Scanning :**

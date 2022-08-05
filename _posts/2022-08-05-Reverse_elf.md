@@ -5,7 +5,6 @@ categories: [Tryhackme, Easy]
 tags: [r2, radare2, assembly, ltrace, base64]     # TAG names should always be lowercase
 ---
 
-# Reversing ELF
 > Hey remember that I'll have to change the flag so that you can try it and find the actual flag. You can find the challenges [here](https://tryhackme.com/room/reverselfiles).
 
 ### Crackme1

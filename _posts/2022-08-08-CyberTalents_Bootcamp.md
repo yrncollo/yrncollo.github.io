@@ -1,5 +1,5 @@
 ---
-title: "CyberTalents Bootcamp"
+title: "CyberTalents Bootcamp 2022"
 date: 2022-08-08 
 img_path: ../../assets/img/Posts/Cybertalent
 categories: [Cybertalent, Bootcamp]

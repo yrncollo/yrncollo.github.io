@@ -5,7 +5,7 @@ order: 4
 ---
 <h2 align="center">👋 Hello! I'm YrnCollo.</h2>
  
-- I am a Information security enthusiast with strong interest in offensive security and penetration testing.
+- I'm a Information security enthusiast with strong interest in offensive security and penetration testing.
 -  I love reading articles and blogs, be it technical or non-technical.
 * My thoughts :
   * I prefer Vim to Emacs.

@@ -5,7 +5,7 @@ order: 4
 ---
 <h2 align="center">👋 Hello! I'm YrnCollo.</h2>
  
-Hi there! My name is Collins Nge'no and I am a self-taught cybersecurity researcher. This means that I have been learning about how to keep computers and the internet safe on my own, without going to a special school for it.
+Hi there! My name is Collins Nge'no and I am a self-taught cybersecurity researcher. This means that I have been learning about how to keep computers and the internet safe on my own, without going to a cybersec school for it.
 As a self-taught cybersecurity researcher with a focus on reverse engineering, I have been able to develop a strong understanding of the field over the past year.
 
 My passion for technology and problem-solving led me to pursue Diploma in Information Technology, where I have been able to learn about the latest developments in the field and gain valuable hands-on experience.

@@ -8,7 +8,7 @@ order: 4
 Hi there! My name is Collins Nge'no and I am a self-taught cybersecurity researcher. This means that I have been learning about how to keep computers and the internet safe on my own, without going to a special school for it.
 As a self-taught cybersecurity researcher with a focus on reverse engineering, I have been able to develop a strong understanding of the field over the past year.
 
-My passion for technology and problem-solving led me to pursue Diploma in information technology, where I have been able to learn about the latest developments in the field and gain valuable hands-on experience.
+My passion for technology and problem-solving led me to pursue Diploma in Information Technology, where I have been able to learn about the latest developments in the field and gain valuable hands-on experience.
 
 **Reverse engineering** is a crucial aspect of cybersecurity, as it allows researchers to uncover vulnerabilities and weaknesses in computer systems and networks. By understanding how these systems work and what makes them vulnerable, we can take steps to protect them and keep our digital lives safe.
 
@@ -26,6 +26,9 @@ I am grateful for the support and encouragement of those around me, and I am loo
 
 Thank you for taking the time to learn more about my background and experience as a self-taught cybersecurity researcher. I hope that this has given you a better understanding of who I am and what I do, and I look forward to continuing to share my knowledge and expertise with the world.
 
+## Fun fact 😂
+* Did you know that I am a big fan of the **Vim** text editor? As a self-taught programmer and cybersecurity researcher, I have tried out many different text editors over the years, but I keep coming back to Vim. I find it to be a powerful and versatile tool that allows me to quickly and efficiently write and edit code, without the distractions and bloat of other editors. **Plus, it's just plain fun to use!**
+
 
 ## My stats⚡ 
 
@@ -39,6 +42,5 @@ Thank you for taking the time to learn more about my background and experience a
     </td>
   </tr>
 </table>
-
 
 

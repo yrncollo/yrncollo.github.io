@@ -5,19 +5,29 @@ order: 4
 ---
 <h2 align="center">👋 Hello! I'm YrnCollo.</h2>
  
-- I'm a Information security enthusiast with strong interest in offensive security and penetration testing.
--  I love reading articles and blogs, be it technical or non-technical.
-* My thoughts :
-  * I prefer Vim to Emacs.
-  * I prefer tabs to spaces.
-- 📫 How to reach me: [@YrnCollo](https://twitter.com/Yrn_Collo) on Twitter and let's share some ideas.
-- ⚡ Fun fact: I live on the terminal.
+Hi there! My name is Collins Nge'no and I am a self-taught cybersecurity researcher. This means that I have been learning about how to keep computers and the internet safe on my own, without going to a special school for it.
+As a self-taught cybersecurity researcher with a focus on reverse engineering, I have been able to develop a strong understanding of the field over the past year.
+
+My passion for technology and problem-solving led me to pursue Diploma in information technology, where I have been able to learn about the latest developments in the field and gain valuable hands-on experience.
+
+**Reverse engineering** is a crucial aspect of cybersecurity, as it allows researchers to uncover vulnerabilities and weaknesses in computer systems and networks. By understanding how these systems work and what makes them vulnerable, we can take steps to protect them and keep our digital lives safe.
+
+In my year of experience as a self-taught researcher, I have gained a deep understanding of reverse engineering techniques and tools, as well as an appreciation for the importance of staying up-to-date with the latest developments in the field.
+
+As I continue to learn and grow in my field, I am constantly striving to improve my skills and stay ahead of the curve. This includes staying on top of the latest research and developments in cybersecurity, attending conferences and workshops, and collaborating with other researchers.
+
+In addition to my research and studies, I also enjoy sharing my knowledge with others. I have written articles and tutorials on reverse engineering and cybersecurity, and I am always happy to answer questions and provide guidance to those who are interested in learning more about the field.
+
+I am excited to continue exploring the world of cybersecurity and reverse engineering as I continue to grow and learn in my field. With the rapid pace of technological advancement, there is no shortage of challenges and opportunities for those who are passionate about protecting our digital lives.
+
+As a self-taught researcher, I am proud of what I have been able to accomplish in a short amount of time. But I know that there is always more to learn and discover, and I am committed to continuing my education and staying at the forefront of the field.
+
+I am grateful for the support and encouragement of those around me, and I am looking forward to what the future holds for me as a cybersecurity researcher. Whether I am uncovering vulnerabilities, developing new tools, or sharing my knowledge with others, I am dedicated to making the world a safer and more secure place through my work.
+
+Thank you for taking the time to learn more about my background and experience as a self-taught cybersecurity researcher. I hope that this has given you a better understanding of who I am and what I do, and I look forward to continuing to share my knowledge and expertise with the world.
+
 
 ## My stats⚡ 
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yrncollo&show_icons=true&theme=react&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Yrncollo wakatime stats](https://github-readme-stats.vercel.app/api/wakatime/?&username=yrncollo&theme=react&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
 
 <table>
   <tr>
@@ -29,7 +39,6 @@ order: 4
     </td>
   </tr>
 </table>
-[![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=yrncollo&&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)](https://github.com/yrncollo/)
 
 
 

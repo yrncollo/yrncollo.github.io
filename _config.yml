@@ -101,7 +101,7 @@ comments:
   giscus:
     repo: yrncollo/yrncollo.github.io             # <gh-username>/<repo>
     repo_id: R_kgDOHxZ4vg
-    category: General
+    category: Comments
     category_id: DIC_kwDOHxZ4vs4CTH1E
     mapping: url          # optional, default to 'pathname'
     input_position: bottom  # optional, default to 'bottom'

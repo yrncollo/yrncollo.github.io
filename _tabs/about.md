@@ -27,7 +27,8 @@ I am grateful for the support and encouragement of those around me, and I am loo
 Thank you for taking the time to learn more about my background and experience as a self-taught cybersecurity researcher. I hope that this has given you a better understanding of who I am and what I do, and I look forward to continuing to share my knowledge and expertise with the world.
 
 ## Fun fact 😂
-* Did you know that I am a big fan of the **Vim** text editor? As a self-taught programmer and cybersecurity researcher, I have tried out many different text editors over the years, but I keep coming back to Vim. I find it to be a powerful and versatile tool that allows me to quickly and efficiently write and edit code, without the distractions and bloat of other editors. **Plus, it's just plain fun to use!**
+> **Did you know** that I am a big fan of the **Vim** text editor? As a self-taught programmer and cybersecurity researcher, I have tried out many different text editors over the years, but I keep coming back to Vim. I find it to be a powerful and versatile tool that allows me to quickly and efficiently write and edit code, without the distractions and bloat of other editors. **Plus, it's just plain fun to use!**
+{: .prompt-tip }
 
 
 ## My stats⚡ 

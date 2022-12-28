@@ -16,14 +16,14 @@
 #   noblank: true
 
 # Uncomment and complete the url below to enable more contact options
--
-  type: mastodon
-  icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://infosec.exchange/@yrncollo'  # Fill with your Mastodon account page, rel="me" will be applied for verification
--
-  type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'www.linkedin.com/in/collins-ngeno'  # Fill with your Linkedin homepage
+# -
+#   type: mastodon
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  'https://infosec.exchange/@yrncollo'  # Fill with your Mastodon account page, rel="me" will be applied for verification
+# -
+#   type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  'www.linkedin.com/in/collins-ngeno'  # Fill with your Linkedin homepage
 # -
 #   type: stack-overflow
 #   icon: 'fab fa-stack-overflow'

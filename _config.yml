@@ -23,7 +23,7 @@ timezone: Africa/Nairobi
 
 title: YrnCollo                          # the main title
 
-tagline: Cybersecurity researcher | CTF player | Red teamer   # it will display as the sub-title
+tagline: Cybersecurity researcher || CTF player || Red teamer || Reverse Engineer  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   I am trying to document things as I learn and share it with community. Regards: Yrncollo

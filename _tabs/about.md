@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I am a cybersecurity researcher, focused on identifying and mitigating vulnerabilities to protect individuals and organizations from cyberattacks.
+My name is Collins Kimutai (Yrncollo), as a cybersecurity researcher, I work to find and fix vulnerabilities so that people and businesses are protected from cyberattacks.
 
 
 ## Experience

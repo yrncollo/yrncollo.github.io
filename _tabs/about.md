@@ -43,11 +43,6 @@ Federal Virtual Training Environment (FedVTE) <br/>
 Oct 20, 2022 <br/>
 Cyber Ranges <br/>
 
-
-## Fun fact 😂
-> **Did you know** that I am a big fan of the **Vim** text editor? As a self-taught programmer and cybersecurity researcher, I have tried out many different text editors over the years, but I keep coming back to Vim. I find it to be a powerful and versatile tool that allows me to quickly and efficiently write and edit code, without the distractions and bloat of other editors. **Plus, it's just plain fun to use!**
-{: .prompt-tip }
-
 ## My stats⚡ 
 
 <table>

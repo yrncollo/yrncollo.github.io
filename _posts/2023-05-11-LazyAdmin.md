@@ -7,8 +7,7 @@ categories: [Tryhackme, Easy]
 tags: [nmap, enumeration, gobuster]     # TAG names should always be lowercase
 ---
 
-> Lazyadmin is an easy rated box on Tryhackme. On this box we will begin with 
-nmap scan to enumerate various ports. We shall then exploit a well known vulnerability on the box to get initial foothold and finally do privilege escalation through a script running on the box and it is owned by root. (My IP would vary because I restarted the lab)
+> [Lazyadmin](https://tryhackme.com/room/lazyadmin) is an easy rated box on Tryhackme. On this box we will begin with nmap scan to enumerate various ports. We shall then exploit a well known vulnerability on the box to get initial foothold and finally do privilege escalation through a script running on the box and it is owned by root. (My IP would vary because I restarted the lab)
 {: .prompt-tip }
 
 ## Enumeration

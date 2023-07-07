@@ -2,7 +2,7 @@
 title: "LazyAdmin"
 date: 2023-05-11 
 img_path: ../../assets/img/Posts/LazyAdmin
-image: Lazyadmin.jpeg
+image: Lazyadmin.png
 categories: [Tryhackme, Easy]
 tags: [nmap, enumeration, gobuster]     # TAG names should always be lowercase
 ---

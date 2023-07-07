@@ -1,7 +1,7 @@
 ---
 title: "You Can't see me"
 date: 2023-01-08 
-image: /assets/img/Posts/You-cant-see-me/reverse-engineering.jpg 
+image: /assets/img/Posts/You-cant-see-me/reverse-engineering.png
 categories: [HackTheBox, reverse-engineering]
 tags: [file, strings, ltrace, radare2, r2, reverse engineering]     # TAG names should always be lowercase
 ---

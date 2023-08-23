@@ -2,7 +2,7 @@
 title: "CyberTalents Bootcamp 2022"
 date: 2022-08-08 
 img_path: ../../assets/img/Posts/Cybertalent
-categories: [Cybertalent, Bootcamp]
+categories: [Bootcamp, Cybertalent]
 tags: [wget, wireshark, strings, base64, curl, rot13, Kali linux, forensics, steganography, exiftool, steghide, stegcracker, cyberchef, audacity]     # TAG names should always be lowercase
 ---
 This is [CyberTalents](https://cybertalents.com/) Bootcamp(Online)2022 challenges.

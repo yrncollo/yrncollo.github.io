@@ -336,7 +336,7 @@ Well we have the MAC address...
 One form of string representations is readable but the other is not. Can you read the flag. 102108097103123067084095049115116069097115121083051099114051116051080064115115112104114052053051125 Flag format is FLAG{XXXXXXXXXX}
 
 **Solution:**
-This challenge is so simple. Find a `asci` to text converter and you can use [this site](http://www.unit-conversion.info/texttools/ascii/). If you have time you can use `asci table` and convert one by one till you form the flag.
+This challenge is so simple. Find a `asci` to text converter and you can use [this site](https://www.unit-conversion.info/texttools/ascii/). If you have time you can use `asci table` and convert one by one till you form the flag.
 
 **flag:** `flag{CT_1stEasyS3cr3t3P@ssphr453}`
 

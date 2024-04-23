@@ -1,7 +1,7 @@
 ---
 title: "CyberTalents Bootcamp 2022"
-date: 2022-08-08 
-img_path: ../../assets/img/Posts/Cybertalent
+date: 2022-08-08
+img_path: /assets/img/Posts/Cybertalent
 categories: [Bootcamp, Cybertalent]
 tags: [wget, wireshark, strings, base64, curl, rot13, Kali linux, forensics, steganography, exiftool, steghide, stegcracker, cyberchef, audacity]     # TAG names should always be lowercase
 ---
@@ -10,7 +10,7 @@ This is [CyberTalents](https://cybertalents.com/) Bootcamp(Online)2022 challenge
 ## Competition
 **Description**: Special kind of cybersecurity competition designed to challenge its participants to solve computer security problems.
 
-**solution**: `ctf` 
+**solution**: `ctf`
 
 # Cybersecurity Overview
 ## fisher
@@ -20,19 +20,19 @@ Individuals who know the nuts and bolts of cybersecurity and are well versed in 
 
 Flag format: flag{xxx xxxxxx xxxxxx}
 
-**Solution:** This challenge doesn't need alot of explanation. You can do other research on `bug bounty hunter` 
+**Solution:** This challenge doesn't need alot of explanation. You can do other research on `bug bounty hunter`
 
 `flag{bug bounty hunter}`
 
 # Attacks & Vulnerabilities
- 
+
 ## Mailer
 
 **Description:** we got the evidence for the phishing Email but we need to know the name of malware file
 
 flag format flag{}
 
-**Solution:** 
+**Solution:**
 
 We shall use `wget` to download the file we are given.
 ```shell
@@ -95,7 +95,7 @@ Awesome, we have the name of the file which is `Mal_strike8941934890753353453.ex
 ## cl34r
 **Description:** Can You see the password clearly
 
-**Solution:** 
+**Solution:**
 
 We shall use `wget` to download the file.
 ```bash
@@ -117,7 +117,7 @@ We shall use [`cyberchef`](https://gchq.github.io/CyberChef/) to decode the `url
 Awesome we have our flag `flag{Th1s_15_t0_cl34r}`
 
 ## Anonymous
-**Description:** Can you trace the anonymous guy? 
+**Description:** Can you trace the anonymous guy?
 
 **Solution:**
 
@@ -128,7 +128,7 @@ We shall use `wget` to download the file.
 Let's use the `strings` to see if we can get something out of it
 
 ```shell
-└─$ strings -n 10 anonymous.pcap 
+└─$ strings -n 10 anonymous.pcap
 220 pyftpdlib 1.5.4 ready.
 USER anonymoys
 331 Username ok, send password.
@@ -188,7 +188,7 @@ username: ctf
 
 password: ctf
 
-**Solution:** 
+**Solution:**
 The first thing is to start the challenge and you are given a web shell. We shall use `curl` to see what's on `ctweb.com`.
 ```shell
 ctf@wlem4m2366qcg3011y3e1e0sxzm61y3eq89pbx3m-web-5949f4679f-srh8v:~$ curl ctweb.com                                                                               6 ⨯
@@ -210,7 +210,7 @@ ctf@wlem4m2366qcg3011y3e1e0sxzm61y3eq89pbx3m-web-5949f4679f-srh8v:~$
 ```
 Awesome we have our flag `flag{htt9_pR0toc01}`
 
-## address 
+## address
 **Description:** (What is the source and destination IP/MAC for packet number 258 Mac address in small letters.)
 
 Flag format: flag{Source IP/Source MAC/Destination IP/Destination MAC}
@@ -232,7 +232,7 @@ flag: `flag{40.77.226.250/38:54:9b:31:db:b8/192.168.1.4/08:00:27:ba:8c:38}`
 **Description**
 All of us started from the bottom. Now it's your turn.
 
-**Solution:** 
+**Solution:**
 
 For this challenge we have to analyze the http traffic packets by right clicking > follow > tcp stream.
 ```
@@ -271,12 +271,12 @@ By following stream 86 you'll find `analyze_packet_for_fun was not found on this
 ## ADAMIN
 **Description:** Admin of FTP server is spoofed fetching employers data, `pcap` attached of victim activity
 
-**Solution:** 
+**Solution:**
 We shall start by downloading the files
 ```shell
 └─$ wget https://hubchallenges.s3.eu-west-1.amazonaws.com/Forensics/ADAMIN.pcap
 ```
-We shall filter by `ftp-data` 
+We shall filter by `ftp-data`
 ![wireshark](/wiresharkadmin.png)
 We have two packets and one has salaries.zip content. We shall follow `tcp stream` and save the raw content
 ![wireshark](/wiresharksave.png)
@@ -289,11 +289,11 @@ Flag: `flag{0ne_4_aLL_pa$$}`
 
 ## MAK
 **Description:**
-Given wireshark capturing file. What is the MAC address of the gateway router? 
+Given wireshark capturing file. What is the MAC address of the gateway router?
 
 flag in format : flag{MAC address}
 
-**Solution:** 
+**Solution:**
 
 We shall download the file which we are given.
 ```shell
@@ -340,7 +340,7 @@ This challenge is so simple. Find a `asci` to text converter and you can use [th
 
 **flag:** `flag{CT_1stEasyS3cr3t3P@ssphr453}`
 
-# Data Encryption 
+# Data Encryption
 ## Hide Data
 
 **Description:**
@@ -350,13 +350,13 @@ I used to hide my data with a classic cypher, can you get the flag hidden inside
 
 Awesome we found the flag and it's `2j68yfhqlz`
 
-# Introduction to Kali Linux 
+# Introduction to Kali Linux
 ## remove
 **Description:** I need to remove a file called secret in my home directory. which command should i use
 
 **Solution:** `rm ~/secret`
 
-## Distribution 
+## Distribution
 **Description:** Debian-based distribution with a collection of security and forensics tools. It features timely security updates, support for the ARM architecture
 
 The flag without spaces
@@ -375,26 +375,26 @@ Each point is linked to another point, connect the link and win the Flag!
 **Description:**
 A hacker leaked the below hash online.Can you crack it to know the password of the CEO? the flag is the password Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d
 
-**Solution:** 
+**Solution:**
 You can use hash identifier to know which hash we are cracking. You'll find that the hash is `sha1` and if you crack it you'll get Password. You can use any tool to decode the `sha1` hash and you will find hash is `jrahyn+`
 
-# Introduction to Digital Forensics 
+# Introduction to Digital Forensics
 ## Crime scene
 **Description:** Process of analyzing and investing computer devices, on suspecting that such devices may have been used in a cybercrime
 
 Flag Format: XXXXXXXXX
-**Solution:** 
+**Solution:**
 
 `Forensics`
 
-# Steganography 
+# Steganography
 ## Greeks
 **Description:** The art of hiding messages or information inside other image / text or data
 
 **Solution:** `Steganography`
 
 ## Images3c
-**Description:** Securing an important image requires good encryption. so we added extra security layer for your photo and now is unbreakable! 
+**Description:** Securing an important image requires good encryption. so we added extra security layer for your photo and now is unbreakable!
 
 **Solution:**
 
@@ -461,7 +461,7 @@ flag{cyb3rs3cisaw3s0me}
 ## JTAG Dump
 **Description:** This is a JTAG mobile Extraction for a handset in a criminal case. Catch the Flag
 
-**Solution:** 
+**Solution:**
 We shall use `wget` to download the file we are given.
 ```shell
 └─$ wget https://s3-eu-west-1.amazonaws.com/hubchallenges/Forensics/Jtag-dump.bin
@@ -487,10 +487,10 @@ Once that is done we shall have a directory containing extracted files called `_
 
 Flag format : XXX_XXX_XXXXXXXXXXX
 
-**Solution:** 
+**Solution:**
 
 This challenge was some how tricky at first but after a some tries I managed to solve it.
-we shall download the audio file 
+we shall download the audio file
 ```shell
 └─$ wget https://s3-eu-west-1.amazonaws.com/hubchallenges/Forensics/love-music.wav
 ```

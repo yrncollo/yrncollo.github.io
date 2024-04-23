@@ -1,7 +1,7 @@
 ---
 title: "How to stay safe online"
 date: 2023-01-01
-image: banner.png 
+image: banner.png
 img_path: /assets/img/Posts/online-safety/
 categories: [Cheat sheet]
 tags: [password, data breach, fake emails, phishing, 2FA, backup, cyberbullying, cybercriminals ]     # TAG names should always be lowercase
@@ -58,7 +58,7 @@ Updating your softwares and apps is an important step in keeping yourself safe o
 ### Using latest anti-virus and firewall software
 To keep your device safe while you're online, it's important to have the most current versions of antivirus and firewall software installed. These tools protect your device from viruses and other malware, as well as block unauthorized access to your system by acting as a shield between your device and the internet. Updating your antivirus and firewall software regularly ensures that you're protected against the latest security threats and vulnerabilities. By taking this simple precaution, you can significantly reduce the risk of falling victim to online attacks and safeguard your personal information and data. Some benefits of using latest antivirus and firewall softwares are:
 1. **Protects against malware infections:** Antivirus software is a useful tool for protecting your device against `malware infections`. It works by detecting and removing malicious software that may be present on your device. By keeping your antivirus software up-to-date, you can increase the level of protection for your device. This is because new malware threats are constantly being developed, and it is important that your antivirus software is able to detect and remove these threats in order to keep your device safe and secure. Therefore, it is important to regularly update your antivirus software to ensure that it is able to protect your device against the latest malware threats.
-2. **Enhances overall security:** Proactive steps like installing the latest antivirus and firewall software can significantly improve the security of your device and reduce the risk of being attacked online. Keeping your security software up-to-date is crucial for protecting your device from a variety of threats, including `viruses`, `malware`, and `unauthorized access`. 
+2. **Enhances overall security:** Proactive steps like installing the latest antivirus and firewall software can significantly improve the security of your device and reduce the risk of being attacked online. Keeping your security software up-to-date is crucial for protecting your device from a variety of threats, including `viruses`, `malware`, and `unauthorized access`.
 3. **Protects against phishing attacks:** Antivirus software can help protect against phishing attacks by blocking emails from known phishing websites and alerting the user if they visit a potentially harmful website. It's important to keep antivirus software up to date to effectively detect and protect against cyber threats like phishing attacks.
 
 > Regularly updating antivirus and firewall software helps protect against the latest security threats and vulnerabilities, enhances overall security, and guards against malware infections and phishing attacks. Keeping these tools current minimizes the risk of online attacks and better protects personal information and data.

@@ -48,7 +48,7 @@ We shall split this project into several modules so that when the project grows 
 
 
 ## Error handling
-Before we even start setting up the server we need to create our custom error handler which it will help us display our error message properly.
+Before we even start setting up the server we need to create our custom error handler which will help us display our error message properly.
 
 It will be on `utils/app_error.rs`
 
@@ -277,7 +277,7 @@ On the **`main`** function lets edit the `app_state` variable which we had const
 
     };
 ```
-Awesome we now have our `DatabaseConnection` and we need to create a route to test if we have problems connecting to the database and peforming any of the `CRUD` operations.
+Awesome!! We now have our `DatabaseConnection` and we need to create a route to test if we have problems connecting to the database and peforming any of the `CRUD` operations.
 
 
 ## Creating Routes
@@ -372,7 +372,7 @@ pub struct RespondUser{
 
 The function takes in two parameters: `State(database)` and `Json(request_user)`. The `state` parameter use the `axum` framework `State` extractor to access the application Database connection. On the other hand, `Json` extractor Deserialize JSON data from request body into `RequestUser` struct.
 
-After receiving the registration request, th function proceeds to create new user instance (`new_user`) using the provided `request_user` data.
+After receiving the registration request, the function proceeds to create new user instance (`new_user`) using the provided `request_user` data.
 This user instance is constructed as an `ActiveModel` of the `user` struct representing user entity. Then the save method is invoked to save the data to the database. If there's any error, we shall handle the error using AppError which we implemented earlier.
 
 Finally, if everything is successful, the function constructs a JSON response containing the user details including `user_id`, `username`, `telephone` and `email`.
@@ -504,7 +504,7 @@ Finally if everything is okay we would return `JSON` of the `RespondUser` which 
 
 ### Middleware
 At this point we now need a `middleware` which shall be checking if we are authenticated then once we are we can access other routes.
-I will place the middleware on `utils` module coz why not.
+I will place the middleware on `utils` module because why not.
 This is the function signature where we shall have the `database`, `jwt_secret`, `request` and `next`
 
 ```rust

@@ -1,6 +1,6 @@
 ---
 title: "Building E-commerce with Rust - Backend (part 1)"
-date: 2024-04-23
+date: 2024-05-08
 image: rust-backend-banner.png
 img_path: /assets/img/Posts/rust-backend/
 categories: [Development, backend]

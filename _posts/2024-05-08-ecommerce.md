@@ -23,7 +23,7 @@ We would need the following crates:
 - `axum` - This is the main crate which we would use for the creation of the APIs. When installing it we shall add the macro feature.
 - `tokio` - This crate would help us make our function asynchronous.
 - `dotenvy` - This crate would read the `.env` file which all the secret variables would be stored.
-- `dotenvy_macro` -
+- `dotenvy_macro` - This crate would help us load the environments variables to the working environment.
 - `serde` - This crate help us to Serialize and Deserialize data into JSON format.
 
 Your `cargo.toml` should be like this. (Depending on when you will read this article the version numbers might have change)

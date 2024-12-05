@@ -1,8 +1,7 @@
 ---
 title: "LazyAdmin"
 date: 2023-05-11
-img_path: /assets/img/Posts/LazyAdmin
-image: Lazyadmin.png
+image: /assets/img/Posts/LazyAdmin/Lazyadmin.png
 categories: [Tryhackme, Easy]
 tags: [nmap, enumeration, gobuster]     # TAG names should always be lowercase
 ---
@@ -64,7 +63,7 @@ Progress: 4707 / 4714 (99.85%)==================================================
 2023/05/10 11:28:12 Finished
 ===============================================================
 ```
-![sweetrice](sweetrice.png)_content_
+![sweetrice](/assets/img/Posts/LazyAdmin/sweetrice.png)_content_
 
 I searched if I can find anything on the comment section but I couldn’t find. So I decide to use `gobuster` again to brute-force and see if I can enumerate other directories on the `content` .
 
@@ -103,7 +102,7 @@ Nice. We have a bunch of directories we need to check them.
 
 If we go to `/as` we find login page. So where would we find the login credentials? Well that’s the same question I asked myself. That aside… Lets continue with the enumeration.
 
-![Login](as_login.png)_login_
+![Login](/assets/img/Posts/LazyAdmin/as_login.png)_login_
 I decided to do some research on `SweetRice` . We shall begin searching it on `searchsploit` before going to the internet. Here is the result we get:
 
 ```bash
@@ -150,14 +149,14 @@ http://localhost/SweetRice-transfer.zip
 
 We shall navigate to `http://10.10.249.217/content/inc/mysql_backup` and we would find the backup. Download the backup from there then we have a look at it.
 
-![Backup](backup.png)_backup_
+![Backup](/assets/img/Posts/LazyAdmin/backup.png)_backup_
 ```bash
 14 => 'INSERT INTO `%--%_options` VALUES(\'1\',\'global_setting\',\'a:17:{s:4:\\"name\\";s:25:\\"Lazy Admin&#039;s Website\\";s:6:\\"author\\";s:10:\\"Lazy Admin\\";s:5:\\"title\\";s:0:\\"\\";s:8:\\"keywords\\";s:8:\\"Keywords\\";s:11:\\"description\\";s:11:\\"Description\\";s:5:\\"admin\\";s:7:\\"manager\\";s:6:\\"passwd\\";s:32:\\"42f749ade7f9e195bf475f37a44cafcb\\";s:5:\\"close\\";i:1;s:9:\\"close_tip\\";s:454:\\"<p>Welcome to SweetRice - Thank your for install SweetRice as your website management system.</p><h1>This site is building now , please come late.</h1><p>If you are the webmaster,please go to Dashboard -> General -> Website setting </p><p>and uncheck the checkbox \\"Site close\\" to open your website.</p><p>More help at <a href=\\"http://www.basic-cms.org/docs/5-things-need-to-be-done-when-SweetRice-installed/\\">Tip for Basic CMS SweetRice installed</a></p>\\";s:5:\\"cache\\";i:0;s:13:\\"cache_expired\\";i:0;s:10:\\"user_track\\";i:0;s:11:\\"url_rewrite\\";i:0;s:4:\\"logo\\";s:0:\\"\\";s:5:\\"theme\\";s:0:\\"\\";s:4:\\"lang\\";s:9:\\"en-us.php\\";s:11:\\"admin_email\\";N;}\',\'1575023409\');',
 ```
 
 We see it has hard coded username of `manager` and hash password `42f749ade7f9e195bf475f37a44cafcb` If we go to [crackstation.net](https://crackstation.net) we find its password which is `Password123`
 
-![crackstation](crackstation.png)_crackstation.net_
+![crackstation](/assets/img/Posts/LazyAdmin/crackstation.png)_crackstation.net_
 
 So I decided to tried to exploit the file upload vulnerability which we know it is vulnerable to it. I found this python exploit from exploit-db [https://www.exploit-db.com/exploits/40716](https://www.exploit-db.com/exploits/40716) . The challenge I faced was alot of this php exploits was not working till I found this from github [`https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php`](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) so change where necessary i.e `IP` and `Port`
 

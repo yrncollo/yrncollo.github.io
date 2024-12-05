@@ -1,8 +1,7 @@
 ---
 title: "Building E-commerce with Rust - Backend (part 1)"
 date: 2024-05-08
-image: rust-backend-banner.png
-img_path: /assets/img/Posts/rust-backend/
+image: /assets/img/Posts/rust-backend/rust-backend-banner.png
 categories: [Development, backend]
 tags: [rust, backend, api]     # TAG names should always be lowercase
 ---

@@ -1,7 +1,6 @@
 ---
 title: "CyberTalents Bootcamp 2022"
 date: 2022-08-08
-img_path: /assets/img/Posts/Cybertalent
 categories: [Bootcamp, Cybertalent]
 tags: [wget, wireshark, strings, base64, curl, rot13, Kali linux, forensics, steganography, exiftool, steghide, stegcracker, cyberchef, audacity]     # TAG names should always be lowercase
 ---
@@ -87,7 +86,7 @@ Awesome, we have the name of the file which is `Mal_strike8941934890753353453.ex
 # Network Security Fundamentals
 ## Mask
 **Description:** What is the subnet mask for this host?
-![subnet](/download.png)
+![subnet](/assets/img/Posts/Cybertalent/download.png)
 
 **Solution** We can clearly see the subnet mask is `255.255.255.0` and that's our flag.
 
@@ -103,16 +102,16 @@ wget https://hubchallenges.s3.eu-west-1.amazonaws.com/Forensics/cl34r.pcapng
 ```
 Once opened on `wireshark` we can clearly see some movement of packets.
 
-![wireshark1](/wireshark1.png)
+![wireshark1](/assets/img/Posts/Cybertalent/wireshark1.png)
 
 Let's follow the `GET` request on `/login.php` packet
 There we can see the flag but it is url encoded.
 
-![follow](/follow.png)
+![follow](/assets/img/Posts/Cybertalent/follow.png)
 
 We shall use [`cyberchef`](https://gchq.github.io/CyberChef/) to decode the `url encoded` string.
 
-![cyberchef](/cyberchef.png)
+![cyberchef](/assets/img/Posts/Cybertalent/cyberchef.png)
 
 Awesome we have our flag `flag{Th1s_15_t0_cl34r}`
 
@@ -221,7 +220,7 @@ Use `wget` to download the file.
 ```shell
 └─$ wget https://hubchallenges.s3.eu-west-1.amazonaws.com/foren/Wireshark101.pcapng
 ```
-![address](/address.png)
+![address](/assets/img/Posts/Cybertalent/address.png)
 
 We have all the information. We shall get all the information required by the challenge _i.e IP/source MAC/Destination IP/Destination_
 flag: `flag{40.77.226.250/38:54:9b:31:db:b8/192.168.1.4/08:00:27:ba:8c:38}`
@@ -277,9 +276,9 @@ We shall start by downloading the files
 └─$ wget https://hubchallenges.s3.eu-west-1.amazonaws.com/Forensics/ADAMIN.pcap
 ```
 We shall filter by `ftp-data`
-![wireshark](/wiresharkadmin.png)
+![wireshark](/assets/img/Posts/Cybertalent/wiresharkadmin.png)
 We have two packets and one has salaries.zip content. We shall follow `tcp stream` and save the raw content
-![wireshark](/wiresharksave.png)
+![wireshark](/assets/img/Posts/Cybertalent/wiresharksave.png)
 Let's unzip the `salaries.zip` file which we saved earlier.
 It seems it is password protected. Let's search for the password on the `pcap` file. We shall filter by `ftp` and we can see clear password which is `oneforallpass`.
 Let's unzip again the file supplying the password.
@@ -308,7 +307,7 @@ Archive:  MAK.pcap.zip
 We shall then open the `pcap` file in `wireshark` and navigate to statistics > endpoints > IPv4.10
 
 With that we can see `10.0.0.1` is the first IP address meaning its the default gate way.
-![statistics](/statistics.png)
+![statistics](/assets/img/Posts/Cybertalent/statistics.png)
 
 ```
 839	19.478289	Netgear_67:ea:76		ARP	62	Who has 10.0.0.21? Tell 10.0.0.1
@@ -500,6 +499,6 @@ The next task is to download audacity and if you are on linux it's fairly easy.
 ```
 Once you have downloaded `audacity`, import the downloaded file `love-music.wav` to audacity.
 Change audacity settings to spectrogram and you will see the flag there.
-![audacity](/audacity.png)
+![audacity](/assets/img/Posts/Cybertalent/audacity.png)
 
 Awesome!! flag: `you_are_victorious!`

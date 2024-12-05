@@ -1,8 +1,7 @@
 ---
 title: "How to stay safe online"
 date: 2023-01-01
-image: banner.png
-img_path: /assets/img/Posts/online-safety/
+image: /assets/img/Posts/online-safety/banner.png
 categories: [Cheat sheet]
 tags: [password, data breach, fake emails, phishing, 2FA, backup, cyberbullying, cybercriminals ]     # TAG names should always be lowercase
 ---
